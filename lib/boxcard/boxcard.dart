@@ -1,4 +1,3 @@
-import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -16,7 +15,6 @@ class BoxCard extends StatefulWidget {
 
 class _BoxCardState extends State<BoxCard> {
   bool isLearned = false;
-  // ignore: prefer_typing_uninitialized_variables
   late final prefs;
 
   @override
