@@ -23,9 +23,9 @@ class _WorkingwApisScreen extends State<WorkingwApisScreen> {
       ),
       body: ListView(
         children: [
-          BoxCard('                  JSON Serialize/Deserialize'),
-          BoxCard('                  Web Sockets'),
-          BoxCard('                  RESTful APIs'),
+          BoxCard('       JSON Serialize/Deserialize'),
+          BoxCard('         Web Sockets'),
+          BoxCard('           RESTful APIs'),
           BoxCard('                  GraphQL'),
         ],
       ),

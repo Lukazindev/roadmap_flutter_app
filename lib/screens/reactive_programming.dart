@@ -23,7 +23,7 @@ class _ReactiveProgrammingScreen extends State<ReactiveProgrammingScreen> {
       ),
       body: ListView(
         children: [
-          BoxCard('                  RxDart'),
+          BoxCard('                      RxDart'),
         ],
       ),
     );

@@ -24,11 +24,11 @@ class _AnimationsStateScreen extends State<AnimationsScreen> {
       body: ListView(
         children: [
           BoxCard('                  Opacity'),
-          BoxCard('                  Animation Controller'),
+          BoxCard('          Animation Controller'),
           BoxCard('                  Hero'),
-          BoxCard('                  Animated Builder'),
-          BoxCard('                  Animated Widget'),
-          BoxCard('                  Curved Animation'),
+          BoxCard('          Animated Builder'),
+          BoxCard('          Animated Widget'),
+          BoxCard('          Curved Animation'),
         ],
       ),
     );

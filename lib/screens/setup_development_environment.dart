@@ -24,7 +24,7 @@ class _SetupDevelopmentScreen extends State<SetupDevelopmentScreen> {
       ),
       body: ListView(
         children: [
-          BoxCard('                  Flutter CLI'),
+          BoxCard('                      Flutter CLI'),
           const Task5('                     IDEs'),
           BoxCard('                  FVM'),
         ],

@@ -23,7 +23,7 @@ class _DeploymentStateScreen extends State<DeploymentScreen> {
       ),
       body: ListView(
         children: [
-          BoxCard('                  Guidelines and Protocols'),
+          BoxCard('  Guidelines and Protocols'),
           BoxCard('                  PlayStore'),
           BoxCard('                  App Store'),
         ],

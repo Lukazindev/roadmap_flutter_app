@@ -28,7 +28,7 @@ class _AdvancedDartScreen extends State<AdvancedDartScreen> {
           BoxCard('                  Lists'),
           BoxCard('                  Collections'),
           BoxCard('                  Lambdas'),
-          BoxCard('                  Functional Programming'),
+          BoxCard('  Functional Programming'),
           BoxCard('                  Async/Await'),
           BoxCard('                  Isolates'),
           BoxCard('                  Streams'),

@@ -25,7 +25,7 @@ class _StorageScreen extends State<StorageScreen> {
         children: [
           BoxCard('                  SQLite'),
           BoxCard('                  Firebase'),
-          BoxCard('                  Shared Preferences'),
+          BoxCard('           Shared Preferences'),
         ],
       ),
     );

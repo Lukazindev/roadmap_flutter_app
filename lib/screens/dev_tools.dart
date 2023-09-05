@@ -23,9 +23,9 @@ class _DevToolsStateScreen extends State<DevToolsScreen> {
       ),
       body: ListView(
         children: [
-          BoxCard('                  Flutter Inspector'),
-          BoxCard('                  Memory Allocation'),
-          BoxCard('                  Flutter Outline'),
+          BoxCard('         Flutter Inspector'),
+          BoxCard('           Memory Allocation'),
+          BoxCard('    Flutter Outline'),
         ],
       ),
     );

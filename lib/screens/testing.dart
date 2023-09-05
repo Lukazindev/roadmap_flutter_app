@@ -25,7 +25,7 @@ class _TestingStateScreen extends State<TestingScreen> {
         children: [
           BoxCard('                  BDD'),
           BoxCard('                  TDD'),
-          BoxCard('                  Integration Testing'),
+          BoxCard('             Integration Testing'),
           BoxCard('                  Widget Testing'),
           BoxCard('                  Unit Testing'),
         ],

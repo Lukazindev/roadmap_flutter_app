@@ -23,10 +23,10 @@ class _DesignPrinciplesScreen extends State<DesignPrinciplesScreen> {
       ),
       body: ListView(
         children: [
-          BoxCard('                  Dependency Injection'),
-          BoxCard('                  Design Patterns'),
-          BoxCard('                  SOLID Principles'),
-          BoxCard('                  OOP'),
+          BoxCard('      Dependency Injection'),
+          BoxCard('Design Patterns'),
+          BoxCard('      SOLID Principles'),
+          BoxCard('OOP'),
         ],
       ),
     );

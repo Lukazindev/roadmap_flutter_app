@@ -25,8 +25,8 @@ class _AnalyticsStateScreen extends State<AnalyticsScreen> {
         children: [
           BoxCard('                  Mix Panel'),
           BoxCard('                  Segment'),
-          BoxCard('                  Google Analytics'),
-          BoxCard('                  Firebase Analytics'),
+          BoxCard('           Google Analytics'),
+          BoxCard('              Firebase Analytics'),
         ],
       ),
     );

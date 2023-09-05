@@ -24,8 +24,8 @@ class _CiCdStateScreen extends State<CiCdScreen> {
       body: ListView(
         children: [
           BoxCard('                  Bitrise'),
-          BoxCard('                  Firebase App Dist'),
-          BoxCard('                  GitHub Actions'),
+          BoxCard('         Firebase App Dist'),
+          BoxCard('     GitHub Actions'),
           BoxCard('                  Codemagic'),
           BoxCard('                  Fast Lane'),
         ],
