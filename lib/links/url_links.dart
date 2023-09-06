@@ -21,7 +21,7 @@ class UrlLinks extends StatelessWidget {
                children: [
                  TextButton(
               onPressed: () async {
-                const link = "https://roadmap.sh/";
+                const link = "https://roadmap.sh/flutter";
                 launchUrl(
                   Uri.parse(link),
                   mode: LaunchMode.externalNonBrowserApplication
