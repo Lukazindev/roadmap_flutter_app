@@ -1,12 +1,32 @@
 import 'package:flutter/material.dart';
 import 'package:roadmap_flutter_app/task/tasks.dart';
 
+
+
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer:  Drawer(
+        child: Column(
+          children: [
+            const UserAccountsDrawerHeader(
+              accountName: Text('Developer Contact'),
+               accountEmail: Text('lucasflorencio876@gmail.com'),
+               ),
+            ListTile(
+              leading: Icon(Icons.link, color: Colors.green,),
+              title: Text('MORE OPTIONS', textAlign: TextAlign.start,),
+              subtitle: Text('Important Links'),
+              onTap: () {
+                Navigator.of(context).pushNamed("/urllinks");
+              },
+            ),
+          ],
+        ),
+      ),
       appBar: AppBar(
         backgroundColor: Colors.lightBlue,
         title: const Text(
@@ -42,4 +62,8 @@ class HomeScreen extends StatelessWidget {
       ),
     );
   }
+
+  
 }
+
+

@@ -15,7 +15,7 @@ class _CiCdStateScreen extends State<CiCdScreen> {
       appBar: AppBar(
         backgroundColor: Colors.lightBlue,
         title: const Text(
-          '            Flutter Developer Roadmap',
+          '  Flutter Developer Roadmap',
           style: TextStyle(
             fontSize: 18,
           ),

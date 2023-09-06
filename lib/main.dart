@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:roadmap_flutter_app/links/url_links.dart';
 import 'package:roadmap_flutter_app/screens/advanced_dart.dart';
 import 'package:roadmap_flutter_app/screens/analytics.dart';
 import 'package:roadmap_flutter_app/screens/animations.dart';
@@ -72,6 +73,7 @@ class MyApp extends StatelessWidget with WidgetsBindingObserver {
         "/flutterinternals": (context) => const FlutterInternalsScreen(),
         "/deployment": (context) => const DeploymentScreen(),
         "/analytics": (context) => const AnalyticsScreen(),
+        "/urllinks":(context) => UrlLinks(),
       },
     );
   }

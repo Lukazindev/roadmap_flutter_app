@@ -15,7 +15,7 @@ class _DeploymentStateScreen extends State<DeploymentScreen> {
       appBar: AppBar(
         backgroundColor: Colors.lightBlue,
         title: const Text(
-          '            Flutter Developer Roadmap',
+          '  Flutter Developer Roadmap',
           style: TextStyle(
             fontSize: 18,
           ),

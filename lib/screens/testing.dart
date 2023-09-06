@@ -15,7 +15,7 @@ class _TestingStateScreen extends State<TestingScreen> {
       appBar: AppBar(
         backgroundColor: Colors.lightBlue,
         title: const Text(
-          '            Flutter Developer Roadmap',
+          '  Flutter Developer Roadmap',
           style: TextStyle(
             fontSize: 18,
           ),

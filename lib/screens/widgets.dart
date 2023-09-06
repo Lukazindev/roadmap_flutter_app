@@ -16,7 +16,7 @@ class _WidgetsScreen extends State<WidgetsScreen> {
       appBar: AppBar(
         backgroundColor: Colors.lightBlue,
         title: const Text(
-          '            Flutter Developer Roadmap',
+          '  Flutter Developer Roadmap',
           style: TextStyle(
             fontSize: 18,
           ),
